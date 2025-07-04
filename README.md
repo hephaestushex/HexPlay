@@ -1,2 +1,2 @@
-# handheld-pi
-A handheld gaming console powered by the Raspberry Pi
+# HexPlay
+A handheld gaming console powered by the Raspberry Pi 4B
