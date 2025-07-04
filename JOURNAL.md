@@ -63,7 +63,7 @@ But firstly, I wanted to create a list of all the electronic components, grouped
 
 ### Controls
 
-- 12mm Tactile Switch Buttons x7
+- 12mm Tactile Switch Buttons x11
 - 12mm Tactile Switch Buttons Right Angle x4
 - Analog Joystick x2
 - MCP3008 - 8-Channel 10-Bit ADC With SPI Interface x1
