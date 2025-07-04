@@ -41,4 +41,42 @@ Thats all the planning I did today
 
 **Total time spent: 30mins**
 
+# July 4th:
+
+11:23
+
+I noticed that the repo didn't have hexplay on it, so I renamed it.
+
+I don't think there is much to do, so I just decided to jump in by creating a schematic.
+
+But firstly, I wanted to create a list of all the electronic components, grouped by function
+
+## Electronic Components:
+
+### Computer
+
+- Raspberry Pi 4B x1
+
+### Display
+
+- ELECROW 5" Mini Touchscreen Display x1
+
+### Controls
+
+- 12mm Tactile Switch Buttons x7
+- 12mm Tactile Switch Buttons Right Angle x4
+- Analog Joystick x2
+- MCP3008 - 8-Channel 10-Bit ADC With SPI Interface x1
+
+### Audio
+
+- Stereo 3.7W Class D Audio Amplifier MAX98306 x1
+- Mono Enclosed Speaker with Plain Wires - 3W 4 Ohm x2
+
+### Battery/Charging
+
+- 18650 Li-ion Batteries x2
+- Adafruit Powerboost 1000 Charger
+
+
 
