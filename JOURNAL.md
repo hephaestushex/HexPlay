@@ -5,6 +5,8 @@ description: "A handheld gaming console powered by the pi 4"
 created_at: "2024-06-24"
 ---
 
+# Total Time Spent: 16 Hours
+
 # June 24th: Initial Planning
 
 I initially wanted to make a retro gaming handheld with the pi zero 2w. I didn't like the idea of only being able to play retro games, so I decided to modify it to play any game. Since the pi zero 2w is underpowered, it would have to be replaced with a more powerful sbc. A pi 5 would be ideal, but since it would eat at my budget, I'm going to use a pi 4 4gb that I already own. This console should be able to play retro games, plus a few more, like minecraft. In this case, it is essential that the pi 4 is overclocked, but in order to not damage the pi, it would have to be cooled. Additionally, it would make sense for the display to be touchscreen, as a gaming controller wouldn't be an effective method of navigation.
@@ -162,4 +164,16 @@ First step was to get the dimensions and get modelling. One interesting thing I 
 
 its 5 mins to the deadline, so let me submit.
 
+ok so after submitting i polished up the design, added a hole for the pi's power and audio, and a holder for the power bank
 
+<img width="771" height="543" alt="image" src="https://github.com/user-attachments/assets/e548bef9-e59d-435f-b8cc-6241594fe99e" />
+
+<img width="1087" height="525" alt="image" src="https://github.com/user-attachments/assets/8617971b-02a4-4a1a-ba48-6776f6235f36" />
+
+<img width="992" height="524" alt="image" src="https://github.com/user-attachments/assets/2293ba83-289f-4714-8c83-0715c726b685" />
+
+I also designed a button to put on top of the squishy buttons. So I think thats it, lemme look at the requirements. 
+
+From there I just finished the few things I didnt have and filled out the re-review form
+
+**Total time spent: 10h**
