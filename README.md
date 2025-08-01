@@ -1,11 +1,11 @@
 # HexPlay
 A handheld gaming console powered by the Raspberry Pi 4/5. This handheld will run Android, using the touchscreen provided by the display. With 2 analog sticks and 15 more inputs, this will be able to play any game upto GameCube (using pi 5) or N64 (using pi 4). The handheld uses a powerbank to provide power to the handheld. This handheld is somewhat cold-swappable, with all connections to the pi is hdmi or usb.
 
-<img width="828" height="439" alt="image" src="https://github.com/user-attachments/assets/d41994b7-68b7-41a5-af93-e722a0c17138" />
+<img width="992" height="524" alt="image" src="https://github.com/user-attachments/assets/2a5ffcdc-e2e8-4c6c-ab6f-d9f003e2b731" />
 
-<img width="260" height="499" alt="image" src="https://github.com/user-attachments/assets/25bcd0b8-443c-41f8-b9b3-cf9157a4021b" />
+<img width="1087" height="525" alt="image" src="https://github.com/user-attachments/assets/095fbeb2-ba7a-49b6-9a12-34c9353a3153" />
 
-<img width="736" height="306" alt="image" src="https://github.com/user-attachments/assets/a20b967b-d68a-4b47-85b6-cb3bfa92de70" />
+<img width="771" height="543" alt="image" src="https://github.com/user-attachments/assets/35a5168b-9df0-4477-9efa-2266cdb5c496" />
 
 Uses GP2040-CE firmware - [link](https://gp2040-ce.info/)
 
