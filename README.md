@@ -1,6 +1,7 @@
 # HexPlay
 A handheld gaming console powered by the Raspberry Pi 4B
 
+Uses GP2040-CE firmware - [link](https://gp2040-ce.info/)
 
 # BOM
 | Name                              | Quantity  | Part Link                                                                                                                        | Description                                                | Price (USD) |
