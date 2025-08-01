@@ -1,7 +1,23 @@
 # HexPlay
-A handheld gaming console powered by the Raspberry Pi 4B
+A handheld gaming console powered by the Raspberry Pi 4/5. This handheld will run Android, using the touchscreen provided by the display. With 2 analog sticks and 15 more inputs, this will be able to play any game upto GameCube (using pi 5) or N64 (using pi 4). The handheld uses a powerbank to provide power to the handheld. This handheld is somewhat cold-swappable, with all connections to the pi is hdmi or usb.
+
+<img width="828" height="439" alt="image" src="https://github.com/user-attachments/assets/d41994b7-68b7-41a5-af93-e722a0c17138" />
+
+<img width="260" height="499" alt="image" src="https://github.com/user-attachments/assets/25bcd0b8-443c-41f8-b9b3-cf9157a4021b" />
+
+<img width="736" height="306" alt="image" src="https://github.com/user-attachments/assets/a20b967b-d68a-4b47-85b6-cb3bfa92de70" />
 
 Uses GP2040-CE firmware - [link](https://gp2040-ce.info/)
+
+# Schematic
+
+<img width="1076" height="612" alt="image" src="https://github.com/user-attachments/assets/11029510-1477-4594-8696-b4c29b25fc47" />
+
+The schematic is just a wiring diagram, I am not using a PCB due to the components used.
+
+# BOM Notes
+
+The two parts ordered off of Amazon are of same or less price than of aliexpress. Additionally, the power bank is from a reputable brand, so I don't burn my house down playing Zelda.
 
 # BOM
 | Name                              | Quantity  | Part Link                                                                                                                        | Description                                                | Price (USD) |
