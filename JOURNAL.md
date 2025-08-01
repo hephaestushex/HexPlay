@@ -144,3 +144,22 @@ It's pretty late for me so thats it for today
 
 **Total time spent: 1h**
 
+# July 31st: Everything Speedrun
+
+After procrastinating some more, I started filling out the BOM.
+
+<img width="714" height="152" alt="image" src="https://github.com/user-attachments/assets/f5f94d90-da17-40d1-8d79-67bb9855b78d" />
+
+All was fine until the powerbank. I spent so long on this for two simple reasons. The Pi 5 needs 5V/5A to run accessories. most powerbanks only have 5v/3a. I spent so long looking for a solution, with lipos, liions, tp4056 modules, buck/boost converters. In the end i found a power bank that offered 5V/3A over two ports to power the display if needed. A bonus of this powerbank is that it already has a usb-c cable built in, making the amount of cables one less.
+
+Also while doing this, I realized that the ADC I have has pins soldered to it, plus I wanted to find a jank free setup. The Waveshare RP2040 zero solves this, but the only problem is that I would have to order this off of ali, which might delay the build process. As of writing this, I realized I can remove the headers. But, the adc is 8 bit (0-255) compared to the pico's 12 bit (1-4095). Anyway, I'll buy three things off of ali, the rp2040 zero, the joysticks, and some squishy buttons. The only issue with using the rp4040 zero is that I have to connect one button to a pad on the back, but thats better than using another chip with less accuracy. From here, I just have to make a table version of the bom, and cad up a design. In the last entry i mentioned making a custom firmware, but I found out about gp2040-ce, which makes controller firmware not only easy, but buttery smooth with a less than 1 ms latency.
+
+With all that done, i hopped on fusion to design a case.
+
+First step was to get the dimensions and get modelling. One interesting thing I did was use snipping tool to take a picture of the display to find the dimensions of the display, based off of a hdmi connector. As for mounting the display and joystick, i just inseted four corners and made a hole. After all of that, this is what I got
+
+<img width="753" height="371" alt="image" src="https://github.com/user-attachments/assets/207fd223-2a7c-4db7-9e6b-01996a6e1549" />
+
+its 5 mins to the deadline, so let me submit.
+
+
