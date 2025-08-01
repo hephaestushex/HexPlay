@@ -1,6 +1,8 @@
 # HexPlay
 A handheld gaming console powered by the Raspberry Pi 4/5. This handheld will run Android, using the touchscreen provided by the display. With 2 analog sticks and 15 more inputs, this will be able to play any game upto GameCube (using pi 5) or N64 (using pi 4). The handheld uses a powerbank to provide power to the handheld. This handheld is somewhat cold-swappable, with all connections to the pi is hdmi or usb.
 
+I made this project for several reasons. Number one: points for flight reimbursement. Number two: my pi 4 was laying around, collecting dust. Number three: I've always loved playing retro games, especially those of the GameCube. I couldve made a simple handheld, with no analog joystick, but I found that unappealing because I wanted to play games with analog sticks. The HexPlay was born from there, going through many iterations, from a pcb handheld, an xbox style handheld, to the nintendo switch esque handheld that is here today. Overall, this project was a dream of mine ever since I got my pi, and its so nice to see it come into fruition 5 years later.
+
 <img width="992" height="524" alt="image" src="https://github.com/user-attachments/assets/2a5ffcdc-e2e8-4c6c-ab6f-d9f003e2b731" />
 
 <img width="1087" height="525" alt="image" src="https://github.com/user-attachments/assets/095fbeb2-ba7a-49b6-9a12-34c9353a3153" />
