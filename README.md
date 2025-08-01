@@ -34,4 +34,5 @@ The two parts ordered off of Amazon are of same or less price than of aliexpress
 | 10000mAh Power Bank               | 1         | [Amazon](https://www.amazon.ca/INIU-Portable-Slimmest-10000mAh-Charging/dp/B0DCHVGS2S/)                                          | Power bank for powering the device                        | $23.38      |
 | M3x6 Bolts                        | 14        | already owned                                                                                                                     | for securing components                                   | $0.50       |
 | M3x5x4 Heatset Inserts            | 14        | already owned                                                                                                                     | for securing components                                   | $0.50       |
-
+|  |  |  | Total | $152.60 |
+|  |  |  | Hack Club Total | $91.60 |
