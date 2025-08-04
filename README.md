@@ -11,11 +11,34 @@ I made this project for several reasons. Number one: points for flight reimburse
 
 Uses GP2040-CE firmware - [link](https://gp2040-ce.info/)
 
+# CAD
+
+I have some M3x6 bolts and M3x5x4 heatset inserts left over from my keyboard, so I designed my case around them.
+
+The joysticks are clamped in place with 4 posts, each with slots for m3 inserts.
+
+<img width="455" height="372" alt="image" src="https://github.com/user-attachments/assets/fcb6ea45-5067-406e-a625-6e01e2199403" />
+
+The buttons will simply be inserted and hot glued.
+
+
 # Schematic
 
 <img width="1076" height="612" alt="image" src="https://github.com/user-attachments/assets/11029510-1477-4594-8696-b4c29b25fc47" />
 
-The schematic is just a wiring diagram, I am not using a PCB due to the components used.
+The schematic is just a wiring diagram, I am not using a PCB due to the components used. The display takes up most of the space, and the Pi is mounted behind it. Since I always intended to use an mcu as a bridge between the pi and the controls, there wasn't really a point to a pcb, as it would just complicate things (add one more thing to deal with in cad). Additionally, the joysticks would stick too far up from the controls if i were to mount it all on one flat plane. Another reason for not using a PCB is for the shoulder buttons. If I were to use shoulder buttons, I would need right angle buttons, which would increase the cost and complexity.
+
+<img width="642" height="634" alt="image" src="https://github.com/user-attachments/assets/c4af6015-e603-4a80-ae16-2fb0974e4455" />
+
+The connections from the Pi are pretty simple. The power bank plugs into the power socket, the mcu connects to a usb port, and the display connects to the pi via usb and microHDMI. Most connections are hidden behind a case, except for the powerbank connection. This is because I would like it to be cold-swappable, meaning I can just pop in a new power bank if the battery gets low.
+
+<img width="687" height="394" alt="image" src="https://github.com/user-attachments/assets/861a6208-8a92-44ff-866f-12779b7627bf" />
+
+The buttons are all individually wired. I didn't go with a matrix since it would add complexity (matrix, which would need a pcb, which I can't use because of components. Anyway, the RP2040 has more than enough GPIOs.
+
+<img width="520" height="659" alt="image" src="https://github.com/user-attachments/assets/f380fa2c-8e6c-4444-a48a-517efae0e2e4" />
+
+Here's an interesting part. The official Raspberry Pi Pico only exposes 3 ADC pins. The other ADC is tied to VSYS for power input sensing. The joysticks need 2 ADC pins each. Unfortunately, this means that I can't use a normal Pi Pico (or an orpheus pico for that matter) Luckily, other board expose all 4 ADC pins. One is the XIAO RP2040 and the other is the RP2040-Zero. The former doesnt have much pins (11 usable GPIOs) but the latter has more than enough. Anyway, the buttons are wired to some GPIOs.
 
 # BOM Notes
 
@@ -28,7 +51,7 @@ The two parts ordered off of Amazon are of same or less price than of aliexpress
 | RP2040-Zero                       | 1         | [AliExpress](https://www.aliexpress.com/item/1005007650325892.html)                                                              | MCU for handling joystick and button input                | $5.15       |
 | Analog PS2 style Joystick         | 2         | [AliExpress](https://www.aliexpress.com/item/1005007561985496.html)                                                              | Analog joystick for input                                 | $1.69       |
 | Soft Tactile Buttons              | 15        | [AliExpress](https://www.aliexpress.com/item/32963848918.html)                                                                   | button for input source                                   | $1.81       |
-| 7" Touchscreen Display with Speakers | 1      | [Amazon](https://www.amazon.ca/ELECROW-Raspberry-Touchscreen-1024x600-HDMI-Compatible/dp/B08FMNDDSL/)                            | touchscreen display with speakers                         | $59.57      |
+| 7" Touchscreen Display with Speakers | 1      | [Amazon](https://www.amazon.ca/ELECROW-Raspberry-Touchscreen-1024x600-HDMI-Compatible/dp/B08FMNDDSL/)                            | touchscreen display with speakers                         | $47.49      |
 | Equivalent AliExpress Display     | 0         | [AliExpress](https://www.aliexpress.com/item/1005001315929149.html)                                                              | touchscreen display with speakers                          | $61.50     |
 | 3D Printed Case and Buttons       | 1         | already owned                                                                                                                     | custom case and buttons for the handheld                  | $4.00       |
 | Wires                             | a lot     | already owned                                                                                                                     | for connecting components                                 | $1.00       |
@@ -37,4 +60,4 @@ The two parts ordered off of Amazon are of same or less price than of aliexpress
 | M3x6 Bolts                        | 14        | already owned                                                                                                                     | for securing components                                   | $0.50       |
 | M3x5x4 Heatset Inserts            | 14        | already owned                                                                                                                     | for securing components                                   | $0.50       |
 |  |  |  | Total | $152.60 |
-|  |  |  | Hack Club Total | $91.60 |
+|  |  |  | Hack Club Total | $79.52 |
