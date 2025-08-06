@@ -17,10 +17,11 @@ I have some M3x6 bolts and M3x5x4 heatset inserts left over from my keyboard, so
 
 The joysticks are clamped in place with 4 posts, each with slots for m3 inserts.
 
-<img width="455" height="372" alt="image" src="https://github.com/user-attachments/assets/fcb6ea45-5067-406e-a625-6e01e2199403" />
+<img width="378" height="371" alt="image" src="https://github.com/user-attachments/assets/c3da112e-7bec-4582-b676-8244f0acc7fb" />
 
-The buttons will simply be inserted and hot glued.
+The buttons will simply be inserted and hot glued. The button tops (the part the user presses) will simply be glued onto the tops of the buttons. This will work, so I submitted it early, but I'm designing a better system with an extrusion and hole for the button cap to fit into.
 
+<img width="367" height="465" alt="image" src="https://github.com/user-attachments/assets/c335d709-93d6-47ff-a57c-5e8bf9c8f8c1" />
 
 # Schematic
 
