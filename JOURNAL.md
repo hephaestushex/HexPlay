@@ -206,4 +206,30 @@ Here I developed a method for all my buttons. I made the outline of the button, 
 
 <img width="565" height="295" alt="image" src="https://github.com/user-attachments/assets/cd19a756-5fd7-4373-a37f-7bf5be6e3f4d" />
 
-For this button, I did something similar to the d pad and made a large button, able to move up and down and two spots.
+For this button, I did something similar to the d pad and made a large button, able to move up and down and two spots. 
+
+### Face Buttons
+
+<img width="221" height="180" alt="image" src="https://github.com/user-attachments/assets/4225ace0-0347-47b1-8bc8-abbbb1e08e54" />
+
+I embossed the letters on the face. I chose nintendo style layout, since I plan on playing nintendo games.
+
+Here I merged the walls, so it would fit.
+
+### Shoulder Buttons
+
+<img width="592" height="426" alt="image" src="https://github.com/user-attachments/assets/5dedd9b9-e39b-417a-b45e-7d6640e5f00e" />
+
+I expanded the button length for easier pressing, and curved the edge to fit with the design.
+
+### Joystick
+
+<img width="260" height="234" alt="image" src="https://github.com/user-attachments/assets/49954d3f-0285-4ff3-93fe-4d75a6372e4f" />
+
+Previously I just stuck it to the top of the case and called it, but that didnt feel right. I did a previous project a few years ago with the same joystick, so I took the dimensions used and made better joystick. On the previous project, the dimension of the top plate was 3mm thick, but this case plate is 5mm thick. To fix that, I just filleted the edges.
+
+Finally, I added some material to make the port sides look cleaner.
+
+<img width="227" height="285" alt="image" src="https://github.com/user-attachments/assets/ba0ad077-2289-48c8-b16a-9d7ac035d6b3" />
+
+**Total time spent: 3h**
