@@ -3,11 +3,11 @@ A handheld gaming console powered by the Raspberry Pi 4/5. This handheld will ru
 
 I made this project for several reasons. Number one: points for flight reimbursement. Number two: my pi 4 was laying around, collecting dust. Number three: I've always loved playing retro games, especially those of the GameCube. I couldve made a simple handheld, with no analog joystick, but I found that unappealing because I wanted to play games with analog sticks. The HexPlay was born from there, going through many iterations, from a pcb handheld, an xbox style handheld, to the nintendo switch esque handheld that is here today. Overall, this project was a dream of mine ever since I got my pi, and its so nice to see it come into fruition 5 years later.
 
-<img width="992" height="524" alt="image" src="https://github.com/user-attachments/assets/2a5ffcdc-e2e8-4c6c-ab6f-d9f003e2b731" />
+<img width="1046" height="516" alt="image" src="https://github.com/user-attachments/assets/39243b10-da81-4d47-90a5-c4992b29227d" />
 
-<img width="1087" height="525" alt="image" src="https://github.com/user-attachments/assets/095fbeb2-ba7a-49b6-9a12-34c9353a3153" />
+<img width="1148" height="389" alt="image" src="https://github.com/user-attachments/assets/a07edf94-3072-410e-9cee-1220ddcb09c7" />
 
-<img width="771" height="543" alt="image" src="https://github.com/user-attachments/assets/35a5168b-9df0-4477-9efa-2266cdb5c496" />
+<img width="939" height="665" alt="image" src="https://github.com/user-attachments/assets/6a7de390-b4be-4add-880c-c83174cab823" />
 
 Uses GP2040-CE firmware - [link](https://gp2040-ce.info/)
 
@@ -39,6 +39,10 @@ The buttons are all individually wired. I didn't go with a matrix since it would
 <img width="520" height="659" alt="image" src="https://github.com/user-attachments/assets/f380fa2c-8e6c-4444-a48a-517efae0e2e4" />
 
 Here's an interesting part. The official Raspberry Pi Pico only exposes 3 ADC pins. The other ADC is tied to VSYS for power input sensing. The joysticks need 2 ADC pins each. Unfortunately, this means that I can't use a normal Pi Pico (or an orpheus pico for that matter) Luckily, other board expose all 4 ADC pins. One is the XIAO RP2040 and the other is the RP2040-Zero. The former doesnt have much pins (11 usable GPIOs) but the latter has more than enough. Anyway, the buttons are wired to some GPIOs.
+
+# Software/Firmware
+
+The RP2040-Zero runs GP2040-CE, a firmware that turns any RP2040 into a game controller. The firmware reads inputs from set pins, and outputs a signal to the pi with a less than 1ms latency. This is better than any custom firmware that I can make, plus, this firmware has been tried and tested by many people. As for the Pi, it will either run RetroPie or Android. Due to the nature of the controls and display, no other software needs to be written, as everything is plug and play. (Except for the display. The display will need some configuration options to work properly with the raspberry pi. But since this isn't firmware, im not counting it)
 
 # BOM Notes
 
