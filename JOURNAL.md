@@ -177,3 +177,33 @@ I also designed a button to put on top of the squishy buttons. So I think thats 
 From there I just finished the few things I didnt have and filled out the re-review form
 
 **Total time spent: 10h**
+
+# August 5th: Case Polishing
+
+Here is the initial case I submitted:
+
+<img width="992" height="524" alt="Screenshot 2025-08-01 001706" src="https://github.com/user-attachments/assets/d34c65df-a1f7-424a-aa42-855305482141" />
+
+I felt like this wouldn't meet the level of polishing wanted by the reviewers, so I hopped on fusion and started designing.
+
+The first thing I made is this DPAD
+
+<img width="585" height="535" alt="image" src="https://github.com/user-attachments/assets/cc231d00-3ea5-4488-9afc-f5eb7bc838c7" />
+
+<img width="782" height="718" alt="image" src="https://github.com/user-attachments/assets/3ae46503-4f84-4caf-9b23-35c43139edb2" />
+
+Here I developed a method for all my buttons. I made the outline of the button, aligned to the tactile button cutouts. Then, I used the offset tool to make 2 offset perimeters. One, 0.2mm away from the original button, for tolerances, and another 1 mm away from the second offset, for the button housing. With this method I was able to create the other buttons,
+
+### Home Button
+
+<img width="385" height="351" alt="image" src="https://github.com/user-attachments/assets/e68eeda3-7c55-423c-b5dd-6e4a48da7c4d" />
+
+<img width="452" height="456" alt="image" src="https://github.com/user-attachments/assets/956049d7-9f0f-46a6-82ba-c2e99822512f" />
+
+### Start and Select
+
+<img width="386" height="507" alt="image" src="https://github.com/user-attachments/assets/f71a0b0c-7147-40c2-95cc-1812a8034f9e" />
+
+<img width="565" height="295" alt="image" src="https://github.com/user-attachments/assets/cd19a756-5fd7-4373-a37f-7bf5be6e3f4d" />
+
+For this button, I did something similar to the d pad and made a large button, able to move up and down and two spots.
